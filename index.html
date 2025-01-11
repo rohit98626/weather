@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <h1>Weather App</h1>
+        <input type="text" id="city" placeholder="enter the city name" />
+        <button id="getweather">Get Weather</button>
+        <button id="toggleUnits">Switch to F</button>
+        <div id="weatherdata" class="hidden">
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <img id="icon" alt="Weather icon">
+        </div>
+        <p id="errormessage" class="hidden"></p>
+    </div>
+    
+    <!-- Place the script tag here -->
+    <script src="script.js"></script>
+</body>
+</html>
